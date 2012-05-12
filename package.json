@@ -1,0 +1,15 @@
+{
+  "name": "mixalot",
+  "description": "Combine multiple DIY fertilizers into one solution",
+  "author": "flores <github@petalphile.com>",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "node mixalot.js"
+  },
+  "dependencies": {
+    "express": "2.5.5",
+    "connect": "latest",
+    "jade": "latest"
+  }
+}
+
