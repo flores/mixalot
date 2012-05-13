@@ -5,7 +5,7 @@ app.use(express.bodyParser());
 
 app.register('.jade', require('jade'));
 
-var compounds = require('./conf/compounds.json');
+var compounds = require('/compounds.json');
 
 app.get('/', function(req, res){
   res.render('index.jade', {compounds: compounds.diy});

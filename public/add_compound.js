@@ -1,7 +1,7 @@
 // with help from 
 // http://stackoverflow.com/questions/7340644/dynamically-add-input-type-select-with-options-in-javascript
 function addInput(divName){
-  var compounds = require('compounds.json');
+  var compounds = require('/compounds.json');
   var newDiv=document.createElement('div');
   var selectHTML = "";
   selectHTML="<select name='" + divName + "'>";
